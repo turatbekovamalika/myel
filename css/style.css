@@ -45,6 +45,7 @@
 .text-section {
   padding-top: 101px;
   padding-bottom: 102px;
+  margin: 67px 61px;
 }
 .text-container {
   display: flex;
@@ -57,7 +58,6 @@
   font-size: 64px;
   color: #000000;
   font-family: "Roboto", sans-serif;
-  margin: 67px;
 }
 .text-right {
   font-family: "Roboto", sans-serif;
@@ -66,13 +66,12 @@
   text-align: right;
   width: 106px;
   height: 23px;
-  margin: 61px;
 }
 .text {
   font-size: 20px;
   font-family: "Roboto", sans-serif;
   color: #000000;
-  margin: 67px;
+
   padding-top: 31px;
 }
 .product-section {
@@ -156,4 +155,19 @@
   width: 120px;
   height: 23px;
   text-align: left;
+}
+
+.gold-container {
+  display: flex;
+  gap: 50px;
+}
+.ring h2 {
+  font-size: 48px;
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+}
+.ring p {
+  font-size: 14px;
+  color: #000000;
+  font-family: "Roboto", sans-serif;
 }
