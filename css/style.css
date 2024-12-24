@@ -1,0 +1,34 @@
+.container {
+  width: 1451px;
+  height: 29px;
+  background-color: #d8bf95;
+}
+.title {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 14px;
+  color: #000;
+}
+.header {
+  position: relative;
+  background-color: #ffffff;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-menu {
+  display: flex;
+  list-style: none;
+  gap: 260px;
+  margin: 0;
+  padding: 0;
+}
+.header-menu-link {
+  font-size: 14px;
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+}
