@@ -34,3 +34,10 @@
   color: #000000;
   font-family: "Roboto", sans-serif;
 }
+.hero-image {
+  width: 1440px;
+  height: 624px;
+}
+.hero-container {
+  display: flex;
+}
