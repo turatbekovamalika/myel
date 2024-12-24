@@ -81,21 +81,24 @@
 }
 .product-container {
   display: flex;
-  gap: 37px;
+  gap: 50px;
 }
 
 .product-right h2 {
   font-size: 44px;
-
   color: #000000;
   font-family: "Roboto", sans-serif;
-
-  gap: 50px;
 }
 
 .product-right p {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   color: #000000;
-  gap: 50px;
+}
+.book-section {
+  padding-top: 89px;
+  padding-bottom: 90px;
+}
+.book-container {
+  display: flex;
 }
