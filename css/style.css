@@ -1,6 +1,6 @@
 .container {
-  width: 1451px;
-  height: 29px;
+  width: 1440px;
+  height: 40px;
   background-color: #d8bf95;
 }
 .title {
@@ -8,6 +8,8 @@
   text-align: center;
   font-size: 14px;
   color: #000;
+  padding-top: 11px;
+  padding-bottom: 11px;
 }
 .header {
   position: relative;
