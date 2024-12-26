@@ -19,8 +19,60 @@ body {
   text-align: center;
   background-color: #d8bf95;
   font-size: 14px;
+  font-family: "Roboto", serif;
 }
 
 .topbar p {
   margin: 0;
+}
+.nav {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #f1f1f1;
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  font-family: "Roboto", serif;
+  text-decoration: none;
+  font-size: 14px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.nav-link:first-child {
+  margin-right: 261px;
+}
+
+.nav-link:nth-child(2) {
+  margin-right: 202px;
+}
+
+.nav-link:nth-child(3) {
+  margin-right: 115px;
+}
+
+.nav-link:nth-child(4) {
+  margin-right: 228px;
+}
+
+.nav-link:nth-child(5) {
+  margin-right: 27px;
+}
+
+.nav-cart {
+  margin-left: auto;
+}
+
+.nav-language-switchers button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-language-switchers .active {
+  color: #c4c4c4;
 }
