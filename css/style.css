@@ -174,3 +174,27 @@ body {
   margin: 0;
   font-weight: 400;
 }
+.product-section {
+  padding-top: 90px;
+  padding-bottom: 20px;
+}
+.product-container {
+  display: flex;
+  gap: 37px;
+}
+
+.product-right h2 {
+  font-size: 44px;
+
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+
+  gap: 50px;
+}
+
+.product-right p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #000000;
+  gap: 50px;
+}
