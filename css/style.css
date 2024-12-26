@@ -76,3 +76,27 @@ body {
 .nav-language-switchers .active {
   color: #c4c4c4;
 }
+.featured-products {
+  display: flex;
+  align-items: center;
+}
+
+.featured-item {
+  position: relative;
+  width: 33.33333%;
+  height: 630px;
+}
+
+.featured-item img {
+  width: 100%;
+  height: 100%;
+}
+
+.featured-item a {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+}
