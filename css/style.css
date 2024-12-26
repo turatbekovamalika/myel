@@ -136,3 +136,41 @@ body {
   text-transform: uppercase;
   margin: 0;
 }
+.new-arrivals-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.new-arrivals-title {
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.new-arival-btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.new-arival-btns .controls {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+
+.new-arrival-products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.new-arrival-item-title {
+  font-size: 16px;
+  margin: 0;
+  font-weight: 400;
+}
