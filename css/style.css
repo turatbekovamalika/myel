@@ -100,3 +100,39 @@ body {
   color: #fff;
   text-decoration: none;
 }
+.about {
+  padding-top: 98px;
+  padding-bottom: 98px;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.about-inner {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+}
+
+.about-description {
+  font-family: "Roboto", serif;
+  font-size: 64px;
+  line-height: 64px;
+  margin: 0 0 30px;
+}
+
+.about-subtitle {
+  font-family: "Roboto", serif;
+  margin: 0;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.about-title {
+  font-family: "Roboto", serif;
+  font-size: 18px;
+  text-align: right;
+  text-transform: uppercase;
+  margin: 0;
+}
