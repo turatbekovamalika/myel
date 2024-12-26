@@ -198,6 +198,27 @@ body {
   color: #000000;
   gap: 50px;
 }
+.categories-products {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+}
+.categories-item {
+  position: relative;
+}
+.categories-item img {
+  width: 421px;
+  height: 547px;
+}
+.categories-item a {
+  position: absolute;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 33px;
+  font-family: "Roboto", sans-serif;
+  left: 30px;
+  bottom: 30px;
+}
 .book-section {
   padding-top: 89px;
   padding-bottom: 90px;
