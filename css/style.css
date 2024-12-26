@@ -198,3 +198,19 @@ body {
   color: #000000;
   gap: 50px;
 }
+.book-section {
+  padding-top: 89px;
+  padding-bottom: 90px;
+}
+.book-container {
+  display: flex;
+}
+.book-left a {
+  padding-top: 31px;
+  left: 30px;
+  position: absolute;
+  text-decoration: none;
+  font-size: 18px;
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+}
