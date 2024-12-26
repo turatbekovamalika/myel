@@ -267,3 +267,17 @@ body {
   height: 23px;
   text-align: left;
 }
+.gold-container {
+  display: flex;
+  gap: 50px;
+}
+.ring h2 {
+  font-size: 48px;
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+}
+.ring p {
+  font-size: 14px;
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+}
