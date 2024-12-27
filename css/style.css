@@ -340,7 +340,7 @@ body {
 }
 footer {
   background-color: #f1f1f1;
-  padding: 40px 20px;
+  padding: 40px 20px 0px 20px;
 }
 .footer-columns {
   display: flex;
@@ -381,9 +381,25 @@ footer {
 .footer-bottom {
   gap: 316px;
   display: flex;
-
   margin-top: 20px;
   font-size: 14px;
   color: #9b9b9b;
   font-family: "Roboto", sans-serif;
+}
+.footer-left-title {
+  font-size: 22px;
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+}
+.footer-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 150px;
+}
+.footer-socials {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  gap: 10px;
+  display: flex;
 }
